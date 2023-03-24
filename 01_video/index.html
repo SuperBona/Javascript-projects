@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <img
+        src="https://github.com/john-smilga/javascript-basic-projects/raw/master/09-video/setup/preloader.gif"
+        alt="preloader"
+      />
+    </div>
+    <!-- header -->
+    <header>
+      <video class="video-container" muted autoplay loop>
+        <source
+          type="video/mp4"
+          src="https://player.vimeo.com/external/199944928.sd.mp4?s=9110fea688984a285fe5cf6a8ab86bf9db2d3b58&profile_id=164&oauth2_token_id=57447761"
+        />
+      </video>
+      <h1 id="title">video project</h1>
+      <!-- video switch -->
+      <button class="switch-btn">
+        <span>play</span>
+        <span>pause</span>
+        <span class="switch"></span>
+      </button>
+    </header>
+    <script src="./app.js"></script>
+    <!-- <script>
+      $(document).ready(function () {
+        $("#hide").click(function () {
+          $("h1").hide();
+        });
+        $("#show").click(function () {
+          $("h1").show();
+        });
+      });
+    </script> -->
+  </body>
+</html>
