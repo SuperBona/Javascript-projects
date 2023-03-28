@@ -1,2 +1,2 @@
 # Javascript-projects
-Install fontawesome files too
+Install fontawesome folder too
